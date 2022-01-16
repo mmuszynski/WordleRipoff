@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27F787C3278E3290006DB47C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787C2278E3290006DB47C /* Tests_iOS.swift */; };
-		27F787C5278E3290006DB47C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787C4278E3290006DB47C /* Tests_iOSLaunchTests.swift */; };
-		27F787CF278E3290006DB47C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787CE278E3290006DB47C /* Tests_macOS.swift */; };
-		27F787D1278E3290006DB47C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787D0278E3290006DB47C /* Tests_macOSLaunchTests.swift */; };
+		27291987278F77AF00FE71E0 /* WordleRipoffTests_shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27291986278F77AF00FE71E0 /* WordleRipoffTests_shared.swift */; };
+		27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
+		27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
+		27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3CC278E7D050058B3EC /* GameController.swift */; };
+		27B0A3CE278E7D050058B3EC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3CC278E7D050058B3EC /* GameController.swift */; };
+		27BB6760278F939C00E32921 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB675F278F939C00E32921 /* WordView.swift */; };
+		27BB6761278F939C00E32921 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB675F278F939C00E32921 /* WordView.swift */; };
+		27BB676327936B2100E32921 /* Keypress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676227936B2100E32921 /* Keypress.swift */; };
+		27BB676427936B2100E32921 /* Keypress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676227936B2100E32921 /* Keypress.swift */; };
+		27BB67662794943100E32921 /* frequencyList.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27BB67652794943100E32921 /* frequencyList.csv */; };
+		27BB67672794943100E32921 /* frequencyList.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27BB67652794943100E32921 /* frequencyList.csv */; };
+		27BB676A27949D1B00E32921 /* UnixWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676927949D1B00E32921 /* UnixWordList.swift */; };
+		27BB676B27949D1B00E32921 /* UnixWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676927949D1B00E32921 /* UnixWordList.swift */; };
+		27BB676D27949E0100E32921 /* FrequencyWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676C27949E0100E32921 /* FrequencyWordList.swift */; };
+		27BB676E27949E0100E32921 /* FrequencyWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676C27949E0100E32921 /* FrequencyWordList.swift */; };
+		27F55F922794C5DC0087057D /* NWSLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NWSLWordList.swift */; };
+		27F55F932794C5DC0087057D /* NWSLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NWSLWordList.swift */; };
+		27F55F952794C5E30087057D /* NSWL2018.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27F55F942794C5E30087057D /* NSWL2018.txt */; };
+		27F55F962794C5E30087057D /* NSWL2018.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27F55F942794C5E30087057D /* NSWL2018.txt */; };
 		27F787D2278E3290006DB47C /* WordleRipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AA278E328F006DB47C /* WordleRipoffApp.swift */; };
 		27F787D3278E3290006DB47C /* WordleRipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AA278E328F006DB47C /* WordleRipoffApp.swift */; };
 		27F787D4278E3290006DB47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AB278E328F006DB47C /* ContentView.swift */; };
 		27F787D5278E3290006DB47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AB278E328F006DB47C /* ContentView.swift */; };
 		27F787D6278E3290006DB47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F787AC278E3290006DB47C /* Assets.xcassets */; };
 		27F787D7278E3290006DB47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F787AC278E3290006DB47C /* Assets.xcassets */; };
+		27F787E7278E336E006DB47C /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787E6278E336E006DB47C /* WordList.swift */; };
+		27F787E8278E336E006DB47C /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787E6278E336E006DB47C /* WordList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27F787BF278E3290006DB47C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27F787A5278E328F006DB47C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27F787B0278E3290006DB47C;
-			remoteInfo = "WordleRipoff (iOS)";
-		};
-		27F787CB278E3290006DB47C /* PBXContainerItemProxy */ = {
+		27291988278F77AF00FE71E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27F787A5278E328F006DB47C /* Project object */;
 			proxyType = 1;
@@ -37,21 +47,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2729195F278F6DBD00FE71E0 /* WordleRipoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffTests.swift; sourceTree = "<group>"; };
+		27291984278F77AF00FE71E0 /* WordleRipoffTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleRipoffTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27291986278F77AF00FE71E0 /* WordleRipoffTests_shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffTests_shared.swift; sourceTree = "<group>"; };
+		27B0A3C9278E5F690058B3EC /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
+		27B0A3CC278E7D050058B3EC /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		27BB675F278F939C00E32921 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		27BB676227936B2100E32921 /* Keypress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypress.swift; sourceTree = "<group>"; };
+		27BB67652794943100E32921 /* frequencyList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frequencyList.csv; sourceTree = "<group>"; };
+		27BB676927949D1B00E32921 /* UnixWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnixWordList.swift; sourceTree = "<group>"; };
+		27BB676C27949E0100E32921 /* FrequencyWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyWordList.swift; sourceTree = "<group>"; };
+		27F55F912794C5DC0087057D /* NWSLWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWSLWordList.swift; sourceTree = "<group>"; };
+		27F55F942794C5E30087057D /* NSWL2018.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSWL2018.txt; sourceTree = "<group>"; };
 		27F787AA278E328F006DB47C /* WordleRipoffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffApp.swift; sourceTree = "<group>"; };
 		27F787AB278E328F006DB47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27F787AC278E3290006DB47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F787B1278E3290006DB47C /* WordleRipoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleRipoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F787B7278E3290006DB47C /* WordleRipoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleRipoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F787B9278E3290006DB47C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		27F787BE278E3290006DB47C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F787C2278E3290006DB47C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		27F787C4278E3290006DB47C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		27F787CA278E3290006DB47C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F787CE278E3290006DB47C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		27F787D0278E3290006DB47C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		27F787E6278E336E006DB47C /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		27291981278F77AF00FE71E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27F787AE278E3290006DB47C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,30 +90,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27F787BB278E3290006DB47C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27F787C7278E3290006DB47C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2729195E278F6DBD00FE71E0 /* WordleRipoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				2729195F278F6DBD00FE71E0 /* WordleRipoffTests.swift */,
+			);
+			path = WordleRipoffTests;
+			sourceTree = "<group>";
+		};
+		27291985278F77AF00FE71E0 /* WordleRipoffTests_macOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WordleRipoffTests_macOS;
+			sourceTree = "<group>";
+		};
+		27BB675E278F78E900E32921 /* SharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				27291986278F77AF00FE71E0 /* WordleRipoffTests_shared.swift */,
+			);
+			path = SharedTests;
+			sourceTree = "<group>";
+		};
+		27BB676827949D0900E32921 /* Word Lists */ = {
+			isa = PBXGroup;
+			children = (
+				27F787E6278E336E006DB47C /* WordList.swift */,
+				27BB676927949D1B00E32921 /* UnixWordList.swift */,
+				27BB67652794943100E32921 /* frequencyList.csv */,
+				27BB676C27949E0100E32921 /* FrequencyWordList.swift */,
+				27F55F942794C5E30087057D /* NSWL2018.txt */,
+				27F55F912794C5DC0087057D /* NWSLWordList.swift */,
+			);
+			path = "Word Lists";
+			sourceTree = "<group>";
+		};
 		27F787A4278E328F006DB47C = {
 			isa = PBXGroup;
 			children = (
 				27F787A9278E328F006DB47C /* Shared */,
 				27F787B8278E3290006DB47C /* macOS */,
-				27F787C1278E3290006DB47C /* Tests iOS */,
-				27F787CD278E3290006DB47C /* Tests macOS */,
+				27BB675E278F78E900E32921 /* SharedTests */,
+				2729195E278F6DBD00FE71E0 /* WordleRipoffTests */,
+				27291985278F77AF00FE71E0 /* WordleRipoffTests_macOS */,
 				27F787B2278E3290006DB47C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +145,12 @@
 			isa = PBXGroup;
 			children = (
 				27F787AA278E328F006DB47C /* WordleRipoffApp.swift */,
+				27BB676227936B2100E32921 /* Keypress.swift */,
+				27B0A3CC278E7D050058B3EC /* GameController.swift */,
 				27F787AB278E328F006DB47C /* ContentView.swift */,
+				27BB675F278F939C00E32921 /* WordView.swift */,
+				27B0A3C9278E5F690058B3EC /* LetterView.swift */,
+				27BB676827949D0900E32921 /* Word Lists */,
 				27F787AC278E3290006DB47C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -109,8 +161,7 @@
 			children = (
 				27F787B1278E3290006DB47C /* WordleRipoff.app */,
 				27F787B7278E3290006DB47C /* WordleRipoff.app */,
-				27F787BE278E3290006DB47C /* Tests iOS.xctest */,
-				27F787CA278E3290006DB47C /* Tests macOS.xctest */,
+				27291984278F77AF00FE71E0 /* WordleRipoffTests_macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,27 +174,27 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		27F787C1278E3290006DB47C /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				27F787C2278E3290006DB47C /* Tests_iOS.swift */,
-				27F787C4278E3290006DB47C /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		27F787CD278E3290006DB47C /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				27F787CE278E3290006DB47C /* Tests_macOS.swift */,
-				27F787D0278E3290006DB47C /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		27291983278F77AF00FE71E0 /* WordleRipoffTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2729198A278F77AF00FE71E0 /* Build configuration list for PBXNativeTarget "WordleRipoffTests_macOS" */;
+			buildPhases = (
+				27291980278F77AF00FE71E0 /* Sources */,
+				27291981278F77AF00FE71E0 /* Frameworks */,
+				27291982278F77AF00FE71E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27291989278F77AF00FE71E0 /* PBXTargetDependency */,
+			);
+			name = WordleRipoffTests_macOS;
+			productName = WordleRipoffTests_macOS;
+			productReference = 27291984278F77AF00FE71E0 /* WordleRipoffTests_macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		27F787B0278E3290006DB47C /* WordleRipoff (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F787DA278E3290006DB47C /* Build configuration list for PBXNativeTarget "WordleRipoff (iOS)" */;
@@ -178,42 +229,6 @@
 			productReference = 27F787B7278E3290006DB47C /* WordleRipoff.app */;
 			productType = "com.apple.product-type.application";
 		};
-		27F787BD278E3290006DB47C /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27F787E0278E3290006DB47C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				27F787BA278E3290006DB47C /* Sources */,
-				27F787BB278E3290006DB47C /* Frameworks */,
-				27F787BC278E3290006DB47C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27F787C0278E3290006DB47C /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 27F787BE278E3290006DB47C /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		27F787C9278E3290006DB47C /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27F787E3278E3290006DB47C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				27F787C6278E3290006DB47C /* Sources */,
-				27F787C7278E3290006DB47C /* Frameworks */,
-				27F787C8278E3290006DB47C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27F787CC278E3290006DB47C /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 27F787CA278E3290006DB47C /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,19 +239,15 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					27291983278F77AF00FE71E0 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 27F787B6278E3290006DB47C;
+					};
 					27F787B0278E3290006DB47C = {
 						CreatedOnToolsVersion = 13.2;
 					};
 					27F787B6278E3290006DB47C = {
 						CreatedOnToolsVersion = 13.2;
-					};
-					27F787BD278E3290006DB47C = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 27F787B0278E3290006DB47C;
-					};
-					27F787C9278E3290006DB47C = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 27F787B6278E3290006DB47C;
 					};
 				};
 			};
@@ -255,17 +266,25 @@
 			targets = (
 				27F787B0278E3290006DB47C /* WordleRipoff (iOS) */,
 				27F787B6278E3290006DB47C /* WordleRipoff (macOS) */,
-				27F787BD278E3290006DB47C /* Tests iOS */,
-				27F787C9278E3290006DB47C /* Tests macOS */,
+				27291983278F77AF00FE71E0 /* WordleRipoffTests_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		27291982278F77AF00FE71E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27F787AF278E3290006DB47C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F55F952794C5E30087057D /* NSWL2018.txt in Resources */,
+				27BB67662794943100E32921 /* frequencyList.csv in Resources */,
 				27F787D6278E3290006DB47C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,33 +293,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F55F962794C5E30087057D /* NSWL2018.txt in Resources */,
+				27BB67672794943100E32921 /* frequencyList.csv in Resources */,
 				27F787D7278E3290006DB47C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27F787BC278E3290006DB47C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27F787C8278E3290006DB47C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		27291980278F77AF00FE71E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27291987278F77AF00FE71E0 /* WordleRipoffTests_shared.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27F787AD278E3290006DB47C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27F787D4278E3290006DB47C /* ContentView.swift in Sources */,
+				27BB676D27949E0100E32921 /* FrequencyWordList.swift in Sources */,
+				27BB676A27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */,
+				27BB6760278F939C00E32921 /* WordView.swift in Sources */,
 				27F787D2278E3290006DB47C /* WordleRipoffApp.swift in Sources */,
+				27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */,
+				27F787E7278E336E006DB47C /* WordList.swift in Sources */,
+				27BB676327936B2100E32921 /* Keypress.swift in Sources */,
+				27F55F922794C5DC0087057D /* NWSLWordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,44 +332,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F787D5278E3290006DB47C /* ContentView.swift in Sources */,
+				27BB676E27949E0100E32921 /* FrequencyWordList.swift in Sources */,
+				27BB676B27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				27B0A3CE278E7D050058B3EC /* GameController.swift in Sources */,
+				27BB6761278F939C00E32921 /* WordView.swift in Sources */,
 				27F787D3278E3290006DB47C /* WordleRipoffApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27F787BA278E3290006DB47C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27F787C5278E3290006DB47C /* Tests_iOSLaunchTests.swift in Sources */,
-				27F787C3278E3290006DB47C /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27F787C6278E3290006DB47C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27F787D1278E3290006DB47C /* Tests_macOSLaunchTests.swift in Sources */,
-				27F787CF278E3290006DB47C /* Tests_macOS.swift in Sources */,
+				27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */,
+				27F787E8278E336E006DB47C /* WordList.swift in Sources */,
+				27BB676427936B2100E32921 /* Keypress.swift in Sources */,
+				27F55F932794C5DC0087057D /* NWSLWordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27F787C0278E3290006DB47C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27F787B0278E3290006DB47C /* WordleRipoff (iOS) */;
-			targetProxy = 27F787BF278E3290006DB47C /* PBXContainerItemProxy */;
-		};
-		27F787CC278E3290006DB47C /* PBXTargetDependency */ = {
+		27291989278F77AF00FE71E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 27F787B6278E3290006DB47C /* WordleRipoff (macOS) */;
-			targetProxy = 27F787CB278E3290006DB47C /* PBXContainerItemProxy */;
+			targetProxy = 27291988278F77AF00FE71E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2729198B278F77AF00FE71E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF288G8ZJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.WordleRipoffTests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordleRipoff.app/Contents/MacOS/WordleRipoff";
+			};
+			name = Debug;
+		};
+		2729198C278F77AF00FE71E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF288G8ZJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.WordleRipoffTests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordleRipoff.app/Contents/MacOS/WordleRipoff";
+			};
+			name = Release;
+		};
 		27F787D8278E3290006DB47C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,88 +621,18 @@
 			};
 			name = Release;
 		};
-		27F787E1278E3290006DB47C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DF288G8ZJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WordleRipoff (iOS)";
-			};
-			name = Debug;
-		};
-		27F787E2278E3290006DB47C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DF288G8ZJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WordleRipoff (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		27F787E4278E3290006DB47C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DF288G8ZJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "WordleRipoff (macOS)";
-			};
-			name = Debug;
-		};
-		27F787E5278E3290006DB47C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DF288G8ZJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mmuszynski.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "WordleRipoff (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2729198A278F77AF00FE71E0 /* Build configuration list for PBXNativeTarget "WordleRipoffTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729198B278F77AF00FE71E0 /* Debug */,
+				2729198C278F77AF00FE71E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27F787A8278E328F006DB47C /* Build configuration list for PBXProject "WordleRipoff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -680,24 +656,6 @@
 			buildConfigurations = (
 				27F787DE278E3290006DB47C /* Debug */,
 				27F787DF278E3290006DB47C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27F787E0278E3290006DB47C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27F787E1278E3290006DB47C /* Debug */,
-				27F787E2278E3290006DB47C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27F787E3278E3290006DB47C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27F787E4278E3290006DB47C /* Debug */,
-				27F787E5278E3290006DB47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
