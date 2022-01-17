@@ -30,7 +30,7 @@ struct WordleRipoffApp: App {
                     }
                 }
                 Picker("Set Word Length", selection: $gameController.wordLength) {
-                    ForEach(4..<7, id: \.self) { length in
+                    ForEach(3..<9, id: \.self) { length in
                         Text("\(length)")
                     }
                 }
