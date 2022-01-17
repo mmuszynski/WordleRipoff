@@ -25,6 +25,8 @@ struct ContentView: View {
                 ForEach(0..<6) { i in
                     WordView(guess: gameController.guesses[optional: i])
                 }
+                
+                KeyboardView()
             }
             
             Text(gameController.error?.description ?? "")
@@ -40,6 +42,7 @@ struct ContentView: View {
         }
         .padding()
         .background(KeyEventHandling(gameController: self.gameController))
+
     }
 }
 

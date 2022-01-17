@@ -24,6 +24,8 @@
 		273F4145279506AC0004E0D8 /* GameController+Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4143279506AC0004E0D8 /* GameController+Guess.swift */; };
 		273F4147279506DC0004E0D8 /* ClueColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4146279506DC0004E0D8 /* ClueColors.swift */; };
 		273F4148279506DC0004E0D8 /* ClueColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4146279506DC0004E0D8 /* ClueColors.swift */; };
+		273F414A2795B03E0004E0D8 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F41492795B03E0004E0D8 /* KeyboardView.swift */; };
+		273F414B2795B03E0004E0D8 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F41492795B03E0004E0D8 /* KeyboardView.swift */; };
 		27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
 		27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
 		27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3CC278E7D050058B3EC /* GameController.swift */; };
@@ -78,6 +80,7 @@
 		273F413F279506870004E0D8 /* GameController+Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+Clue.swift"; sourceTree = "<group>"; };
 		273F4143279506AC0004E0D8 /* GameController+Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+Guess.swift"; sourceTree = "<group>"; };
 		273F4146279506DC0004E0D8 /* ClueColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueColors.swift; sourceTree = "<group>"; };
+		273F41492795B03E0004E0D8 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		27B0A3C9278E5F690058B3EC /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 		27B0A3CC278E7D050058B3EC /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		27BB675F278F939C00E32921 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
@@ -185,6 +188,7 @@
 			children = (
 				27F787AA278E328F006DB47C /* WordleRipoffApp.swift */,
 				27BB676227936B2100E32921 /* Keypress.swift */,
+				273F41492795B03E0004E0D8 /* KeyboardView.swift */,
 				273F4146279506DC0004E0D8 /* ClueColors.swift */,
 				273F4142279506980004E0D8 /* GameController */,
 				27F787AB278E328F006DB47C /* ContentView.swift */,
@@ -363,6 +367,7 @@
 				27F787D4278E3290006DB47C /* ContentView.swift in Sources */,
 				27BB676D27949E0100E32921 /* FrequencyWordList.swift in Sources */,
 				27BB676A27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				273F414A2795B03E0004E0D8 /* KeyboardView.swift in Sources */,
 				273F413D279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */,
 				27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */,
 				273F4147279506DC0004E0D8 /* ClueColors.swift in Sources */,
@@ -387,6 +392,7 @@
 				27F787D5278E3290006DB47C /* ContentView.swift in Sources */,
 				27BB676E27949E0100E32921 /* FrequencyWordList.swift in Sources */,
 				27BB676B27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				273F414B2795B03E0004E0D8 /* KeyboardView.swift in Sources */,
 				273F413E279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */,
 				27B0A3CE278E7D050058B3EC /* GameController.swift in Sources */,
 				273F4148279506DC0004E0D8 /* ClueColors.swift in Sources */,
