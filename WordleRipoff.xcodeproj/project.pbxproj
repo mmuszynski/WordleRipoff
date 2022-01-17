@@ -22,10 +22,14 @@
 		27BB676B27949D1B00E32921 /* UnixWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676927949D1B00E32921 /* UnixWordList.swift */; };
 		27BB676D27949E0100E32921 /* FrequencyWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676C27949E0100E32921 /* FrequencyWordList.swift */; };
 		27BB676E27949E0100E32921 /* FrequencyWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB676C27949E0100E32921 /* FrequencyWordList.swift */; };
-		27F55F922794C5DC0087057D /* NWSLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NWSLWordList.swift */; };
-		27F55F932794C5DC0087057D /* NWSLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NWSLWordList.swift */; };
+		27F55F922794C5DC0087057D /* NSWLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NSWLWordList.swift */; };
+		27F55F932794C5DC0087057D /* NSWLWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F912794C5DC0087057D /* NSWLWordList.swift */; };
 		27F55F952794C5E30087057D /* NSWL2018.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27F55F942794C5E30087057D /* NSWL2018.txt */; };
 		27F55F962794C5E30087057D /* NSWL2018.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27F55F942794C5E30087057D /* NSWL2018.txt */; };
+		27F55F9E2794F2350087057D /* WashUnivWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F9D2794F2350087057D /* WashUnivWordList.swift */; };
+		27F55F9F2794F2350087057D /* WashUnivWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F55F9D2794F2350087057D /* WashUnivWordList.swift */; };
+		27F55FA12794F3880087057D /* WASHU.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27F55FA02794F3870087057D /* WASHU.csv */; };
+		27F55FA22794F3880087057D /* WASHU.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27F55FA02794F3870087057D /* WASHU.csv */; };
 		27F787D2278E3290006DB47C /* WordleRipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AA278E328F006DB47C /* WordleRipoffApp.swift */; };
 		27F787D3278E3290006DB47C /* WordleRipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AA278E328F006DB47C /* WordleRipoffApp.swift */; };
 		27F787D4278E3290006DB47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F787AB278E328F006DB47C /* ContentView.swift */; };
@@ -57,8 +61,10 @@
 		27BB67652794943100E32921 /* frequencyList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frequencyList.csv; sourceTree = "<group>"; };
 		27BB676927949D1B00E32921 /* UnixWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnixWordList.swift; sourceTree = "<group>"; };
 		27BB676C27949E0100E32921 /* FrequencyWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyWordList.swift; sourceTree = "<group>"; };
-		27F55F912794C5DC0087057D /* NWSLWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWSLWordList.swift; sourceTree = "<group>"; };
+		27F55F912794C5DC0087057D /* NSWLWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWLWordList.swift; sourceTree = "<group>"; };
 		27F55F942794C5E30087057D /* NSWL2018.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSWL2018.txt; sourceTree = "<group>"; };
+		27F55F9D2794F2350087057D /* WashUnivWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashUnivWordList.swift; sourceTree = "<group>"; };
+		27F55FA02794F3870087057D /* WASHU.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WASHU.csv; sourceTree = "<group>"; };
 		27F787AA278E328F006DB47C /* WordleRipoffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffApp.swift; sourceTree = "<group>"; };
 		27F787AB278E328F006DB47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27F787AC278E3290006DB47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,7 +130,9 @@
 				27BB67652794943100E32921 /* frequencyList.csv */,
 				27BB676C27949E0100E32921 /* FrequencyWordList.swift */,
 				27F55F942794C5E30087057D /* NSWL2018.txt */,
-				27F55F912794C5DC0087057D /* NWSLWordList.swift */,
+				27F55F912794C5DC0087057D /* NSWLWordList.swift */,
+				27F55FA02794F3870087057D /* WASHU.csv */,
+				27F55F9D2794F2350087057D /* WashUnivWordList.swift */,
 			);
 			path = "Word Lists";
 			sourceTree = "<group>";
@@ -286,6 +294,7 @@
 				27F55F952794C5E30087057D /* NSWL2018.txt in Resources */,
 				27BB67662794943100E32921 /* frequencyList.csv in Resources */,
 				27F787D6278E3290006DB47C /* Assets.xcassets in Resources */,
+				27F55FA12794F3880087057D /* WASHU.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +305,7 @@
 				27F55F962794C5E30087057D /* NSWL2018.txt in Resources */,
 				27BB67672794943100E32921 /* frequencyList.csv in Resources */,
 				27F787D7278E3290006DB47C /* Assets.xcassets in Resources */,
+				27F55FA22794F3880087057D /* WASHU.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +333,8 @@
 				27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */,
 				27F787E7278E336E006DB47C /* WordList.swift in Sources */,
 				27BB676327936B2100E32921 /* Keypress.swift in Sources */,
-				27F55F922794C5DC0087057D /* NWSLWordList.swift in Sources */,
+				27F55F922794C5DC0087057D /* NSWLWordList.swift in Sources */,
+				27F55F9E2794F2350087057D /* WashUnivWordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +351,8 @@
 				27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */,
 				27F787E8278E336E006DB47C /* WordList.swift in Sources */,
 				27BB676427936B2100E32921 /* Keypress.swift in Sources */,
-				27F55F932794C5DC0087057D /* NWSLWordList.swift in Sources */,
+				27F55F932794C5DC0087057D /* NSWLWordList.swift in Sources */,
+				27F55F9F2794F2350087057D /* WashUnivWordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

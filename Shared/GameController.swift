@@ -146,7 +146,7 @@ public class GameController: ObservableObject {
     
     lazy var correctWord: String = self.wordList.randomElement()!
     var guesses = [Guess()]
-    var wordList: WordList = NSWLWordList()
+    var wordList: WordList = WashUnivWordList()
     
     func reset() {
         self.guesses = [Guess()]
