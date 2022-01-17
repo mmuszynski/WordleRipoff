@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct WordleRipoffApp: App {
-    var gameController: GameController = GameController()
+    @StateObject var gameController: GameController = GameController()
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -22,15 +22,17 @@ struct WordleRipoffApp: App {
                     .keyboardShortcut("r")
                 Button(action: { gameController.error = GameController.GameError.debug(word: gameController.correctWord) },
                        label: { Text("Debug") })
-                    .keyboardShortcut("r")
+                    .keyboardShortcut("d")
                 Divider()
-                Menu("Load Word List") {
-                    Button(action: { gameController.wordList = WordList() },
-                           label: { Text("Unix") })
-                    Button(action: { gameController.wordList = FrequencyWordList() },
-                           label: { Text("Frequency") })
-                    Button(action: { gameController.wordList = NSWLWordList() },
-                           label: { Text("NSWL") })
+                Picker("Load Word List", selection: $gameController.wordListSelection) {
+                    ForEach(GameController.WordListSelection.allCases, id: \.self) { selection in
+                        Text(selection.description)
+                    }
+                }
+                Picker("Set Word Length", selection: $gameController.wordLength) {
+                    ForEach(4..<7, id: \.self) { length in
+                        Text("\(length)")
+                    }
                 }
             }
         }

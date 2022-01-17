@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		27291987278F77AF00FE71E0 /* WordleRipoffTests_shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27291986278F77AF00FE71E0 /* WordleRipoffTests_shared.swift */; };
+		273F41322794FAAB0004E0D8 /* OGcorrectWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 273F41302794FAAB0004E0D8 /* OGcorrectWords.txt */; };
+		273F41332794FAAB0004E0D8 /* OGcorrectWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 273F41302794FAAB0004E0D8 /* OGcorrectWords.txt */; };
+		273F41342794FAAB0004E0D8 /* OGappropriateGuesses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 273F41312794FAAB0004E0D8 /* OGappropriateGuesses.txt */; };
+		273F41352794FAAB0004E0D8 /* OGappropriateGuesses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 273F41312794FAAB0004E0D8 /* OGappropriateGuesses.txt */; };
+		273F41372794FABF0004E0D8 /* OGWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F41362794FABF0004E0D8 /* OGWordList.swift */; };
+		273F41382794FABF0004E0D8 /* OGWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F41362794FABF0004E0D8 /* OGWordList.swift */; };
+		273F413A279505C60004E0D8 /* GameController+GameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4139279505C60004E0D8 /* GameController+GameError.swift */; };
+		273F413B279505C60004E0D8 /* GameController+GameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4139279505C60004E0D8 /* GameController+GameError.swift */; };
+		273F413D279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F413C279505FF0004E0D8 /* GameController+WordListSelection.swift */; };
+		273F413E279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F413C279505FF0004E0D8 /* GameController+WordListSelection.swift */; };
+		273F4140279506870004E0D8 /* GameController+Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F413F279506870004E0D8 /* GameController+Clue.swift */; };
+		273F4141279506870004E0D8 /* GameController+Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F413F279506870004E0D8 /* GameController+Clue.swift */; };
+		273F4144279506AC0004E0D8 /* GameController+Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4143279506AC0004E0D8 /* GameController+Guess.swift */; };
+		273F4145279506AC0004E0D8 /* GameController+Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4143279506AC0004E0D8 /* GameController+Guess.swift */; };
+		273F4147279506DC0004E0D8 /* ClueColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4146279506DC0004E0D8 /* ClueColors.swift */; };
+		273F4148279506DC0004E0D8 /* ClueColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F4146279506DC0004E0D8 /* ClueColors.swift */; };
 		27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
 		27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3C9278E5F690058B3EC /* LetterView.swift */; };
 		27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0A3CC278E7D050058B3EC /* GameController.swift */; };
@@ -54,6 +70,14 @@
 		2729195F278F6DBD00FE71E0 /* WordleRipoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffTests.swift; sourceTree = "<group>"; };
 		27291984278F77AF00FE71E0 /* WordleRipoffTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleRipoffTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27291986278F77AF00FE71E0 /* WordleRipoffTests_shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleRipoffTests_shared.swift; sourceTree = "<group>"; };
+		273F41302794FAAB0004E0D8 /* OGcorrectWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OGcorrectWords.txt; sourceTree = "<group>"; };
+		273F41312794FAAB0004E0D8 /* OGappropriateGuesses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OGappropriateGuesses.txt; sourceTree = "<group>"; };
+		273F41362794FABF0004E0D8 /* OGWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGWordList.swift; sourceTree = "<group>"; };
+		273F4139279505C60004E0D8 /* GameController+GameError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+GameError.swift"; sourceTree = "<group>"; };
+		273F413C279505FF0004E0D8 /* GameController+WordListSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+WordListSelection.swift"; sourceTree = "<group>"; };
+		273F413F279506870004E0D8 /* GameController+Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+Clue.swift"; sourceTree = "<group>"; };
+		273F4143279506AC0004E0D8 /* GameController+Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+Guess.swift"; sourceTree = "<group>"; };
+		273F4146279506DC0004E0D8 /* ClueColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueColors.swift; sourceTree = "<group>"; };
 		27B0A3C9278E5F690058B3EC /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 		27B0A3CC278E7D050058B3EC /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		27BB675F278F939C00E32921 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
@@ -107,11 +131,16 @@
 			path = WordleRipoffTests;
 			sourceTree = "<group>";
 		};
-		27291985278F77AF00FE71E0 /* WordleRipoffTests_macOS */ = {
+		273F4142279506980004E0D8 /* GameController */ = {
 			isa = PBXGroup;
 			children = (
+				27B0A3CC278E7D050058B3EC /* GameController.swift */,
+				273F4143279506AC0004E0D8 /* GameController+Guess.swift */,
+				273F413F279506870004E0D8 /* GameController+Clue.swift */,
+				273F4139279505C60004E0D8 /* GameController+GameError.swift */,
+				273F413C279505FF0004E0D8 /* GameController+WordListSelection.swift */,
 			);
-			path = WordleRipoffTests_macOS;
+			path = GameController;
 			sourceTree = "<group>";
 		};
 		27BB675E278F78E900E32921 /* SharedTests */ = {
@@ -133,6 +162,9 @@
 				27F55F912794C5DC0087057D /* NSWLWordList.swift */,
 				27F55FA02794F3870087057D /* WASHU.csv */,
 				27F55F9D2794F2350087057D /* WashUnivWordList.swift */,
+				273F41312794FAAB0004E0D8 /* OGappropriateGuesses.txt */,
+				273F41302794FAAB0004E0D8 /* OGcorrectWords.txt */,
+				273F41362794FABF0004E0D8 /* OGWordList.swift */,
 			);
 			path = "Word Lists";
 			sourceTree = "<group>";
@@ -144,7 +176,6 @@
 				27F787B8278E3290006DB47C /* macOS */,
 				27BB675E278F78E900E32921 /* SharedTests */,
 				2729195E278F6DBD00FE71E0 /* WordleRipoffTests */,
-				27291985278F77AF00FE71E0 /* WordleRipoffTests_macOS */,
 				27F787B2278E3290006DB47C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,7 +185,8 @@
 			children = (
 				27F787AA278E328F006DB47C /* WordleRipoffApp.swift */,
 				27BB676227936B2100E32921 /* Keypress.swift */,
-				27B0A3CC278E7D050058B3EC /* GameController.swift */,
+				273F4146279506DC0004E0D8 /* ClueColors.swift */,
+				273F4142279506980004E0D8 /* GameController */,
 				27F787AB278E328F006DB47C /* ContentView.swift */,
 				27BB675F278F939C00E32921 /* WordView.swift */,
 				27B0A3C9278E5F690058B3EC /* LetterView.swift */,
@@ -293,7 +325,9 @@
 			files = (
 				27F55F952794C5E30087057D /* NSWL2018.txt in Resources */,
 				27BB67662794943100E32921 /* frequencyList.csv in Resources */,
+				273F41322794FAAB0004E0D8 /* OGcorrectWords.txt in Resources */,
 				27F787D6278E3290006DB47C /* Assets.xcassets in Resources */,
+				273F41342794FAAB0004E0D8 /* OGappropriateGuesses.txt in Resources */,
 				27F55FA12794F3880087057D /* WASHU.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +338,9 @@
 			files = (
 				27F55F962794C5E30087057D /* NSWL2018.txt in Resources */,
 				27BB67672794943100E32921 /* frequencyList.csv in Resources */,
+				273F41332794FAAB0004E0D8 /* OGcorrectWords.txt in Resources */,
 				27F787D7278E3290006DB47C /* Assets.xcassets in Resources */,
+				273F41352794FAAB0004E0D8 /* OGappropriateGuesses.txt in Resources */,
 				27F55FA22794F3880087057D /* WASHU.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,12 +363,18 @@
 				27F787D4278E3290006DB47C /* ContentView.swift in Sources */,
 				27BB676D27949E0100E32921 /* FrequencyWordList.swift in Sources */,
 				27BB676A27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				273F413D279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */,
 				27B0A3CD278E7D050058B3EC /* GameController.swift in Sources */,
+				273F4147279506DC0004E0D8 /* ClueColors.swift in Sources */,
+				273F4144279506AC0004E0D8 /* GameController+Guess.swift in Sources */,
 				27BB6760278F939C00E32921 /* WordView.swift in Sources */,
 				27F787D2278E3290006DB47C /* WordleRipoffApp.swift in Sources */,
 				27B0A3CA278E5F690058B3EC /* LetterView.swift in Sources */,
 				27F787E7278E336E006DB47C /* WordList.swift in Sources */,
+				273F4140279506870004E0D8 /* GameController+Clue.swift in Sources */,
+				273F413A279505C60004E0D8 /* GameController+GameError.swift in Sources */,
 				27BB676327936B2100E32921 /* Keypress.swift in Sources */,
+				273F41372794FABF0004E0D8 /* OGWordList.swift in Sources */,
 				27F55F922794C5DC0087057D /* NSWLWordList.swift in Sources */,
 				27F55F9E2794F2350087057D /* WashUnivWordList.swift in Sources */,
 			);
@@ -345,12 +387,18 @@
 				27F787D5278E3290006DB47C /* ContentView.swift in Sources */,
 				27BB676E27949E0100E32921 /* FrequencyWordList.swift in Sources */,
 				27BB676B27949D1B00E32921 /* UnixWordList.swift in Sources */,
+				273F413E279505FF0004E0D8 /* GameController+WordListSelection.swift in Sources */,
 				27B0A3CE278E7D050058B3EC /* GameController.swift in Sources */,
+				273F4148279506DC0004E0D8 /* ClueColors.swift in Sources */,
+				273F4145279506AC0004E0D8 /* GameController+Guess.swift in Sources */,
 				27BB6761278F939C00E32921 /* WordView.swift in Sources */,
 				27F787D3278E3290006DB47C /* WordleRipoffApp.swift in Sources */,
 				27B0A3CB278E5F690058B3EC /* LetterView.swift in Sources */,
 				27F787E8278E336E006DB47C /* WordList.swift in Sources */,
+				273F4141279506870004E0D8 /* GameController+Clue.swift in Sources */,
+				273F413B279505C60004E0D8 /* GameController+GameError.swift in Sources */,
 				27BB676427936B2100E32921 /* Keypress.swift in Sources */,
+				273F41382794FABF0004E0D8 /* OGWordList.swift in Sources */,
 				27F55F932794C5DC0087057D /* NSWLWordList.swift in Sources */,
 				27F55F9F2794F2350087057D /* WashUnivWordList.swift in Sources */,
 			);

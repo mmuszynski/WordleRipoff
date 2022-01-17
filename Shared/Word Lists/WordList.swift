@@ -11,9 +11,10 @@ public class WordList {
     public typealias Element = String
     
     var words: [Element] = []
+    var wordLength: Int = 5
     
     @available(*, message: "This abstract class must be subclassed")
-    public init() {}
+    public init(wordLength: Int? = nil) {}
     
     func getRandomWord() -> String {
         return words.randomElement()!

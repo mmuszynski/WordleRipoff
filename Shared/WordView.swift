@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WordView: View {
+    @EnvironmentObject var gc: GameController
     var guess: GameController.Guess?
     
     var word: String {
@@ -20,7 +21,7 @@ struct WordView: View {
     
     var body: some View {
        HStack {
-            ForEach(0..<5) { i in
+           ForEach(0..<gc.wordLength, id: \.self) { i in
                 let index = String.Index(utf16Offset: i, in: word)
                 LetterView(letter: word.indices.contains(index) ? String(word[index]) : nil,
                            clue: word.indices.contains(index) ? clues[i] : nil)

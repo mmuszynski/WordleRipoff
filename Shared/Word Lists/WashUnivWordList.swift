@@ -8,7 +8,7 @@
 import Foundation
 
 class WashUnivWordList: WordList {
-    override init() {
+    override init(wordLength: Int? = nil) {
         super.init()
         let url = Bundle.main.url(forResource: "WASHU", withExtension: "csv")!
         let rawList = try! String(contentsOf: url)
