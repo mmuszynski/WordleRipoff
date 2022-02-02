@@ -78,5 +78,11 @@ class WordleRipoffTests_macOS: XCTestCase {
             print(list.getRandomWord())
         }
     }
+    
+    func testKeyboardCharactersClues() {
+        let controller = GameController.example
+        XCTAssertEqual(controller.clueForLetter[Character("d".uppercased())], .correct)
+        XCTAssertEqual(controller.clueForLetter[Character("D")], .correct)
+    }
 
 }

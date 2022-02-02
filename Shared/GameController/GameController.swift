@@ -38,6 +38,7 @@ public class GameController: ObservableObject {
         }
     }
     var guesses = [Guess()]
+    @Published var clueForLetter: [String.Element : Clue] = [:]
     
     lazy var wordList: WordList = wordListSelection.wordListInitializer(wordLength)
     lazy var correctWord: String = self.wordList.getRandomWord()
@@ -48,6 +49,7 @@ public class GameController: ObservableObject {
         self.error = nil
         self.errorTimer?.invalidate()
         self.errorTimer = nil
+        self.clueForLetter = [:]
         
         objectWillChange.send()
     }
@@ -98,6 +100,26 @@ public class GameController: ObservableObject {
         
         guess.test(against: self.correctWord)
         replaceLastGuess(with: guess)
+        
+        for i in 0..<guess.length {
+            let letter = guess.word[guess.word.index(guess.word.startIndex, offsetBy: i)]
+            let clue = guess.clues[i]
+            
+            switch clue {
+            case .unchecked:
+                break
+            case .notPresent:
+                if clueForLetter[letter] != .correct && clueForLetter[letter] != .present {
+                    clueForLetter[letter] = .notPresent
+                }
+            case .present:
+                if clueForLetter[letter] != .correct {
+                    clueForLetter[letter] = .present
+                }
+            case .correct:
+                clueForLetter[letter] = .correct
+            }
+        }
         
         if guess.word == correctWord {
             self.error = .victory

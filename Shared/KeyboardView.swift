@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct KeyboardView: View {
-    let row1 = Array("qwertyuiop")
-    let row2 = Array("asdfghjkl")
-    let row3 = Array("zxcvbnm")
+    @EnvironmentObject var gameController: GameController
+    
+    let row1 = Array("qwertyuiop".uppercased())
+    let row2 = Array("asdfghjkl".uppercased())
+    let row3 = Array("zxcvbnm".uppercased())
     
     var keySize: Double = 40
     
@@ -19,9 +21,11 @@ struct KeyboardView: View {
             ForEach([row1, row2, row3], id: \.self) { row in
                 HStack {
                     ForEach(row, id: \.self) { letter in
+                        let clue = gameController.clueForLetter[letter]
                         Text(String(letter))
                             .frame(maxWidth: keySize, maxHeight: keySize)
                             .aspectRatio(1, contentMode: .fill)
+                            .background(clue?.color ?? GameController.Clue.unchecked.color)
                             .border(.black)
                     }
                 }
@@ -33,5 +37,6 @@ struct KeyboardView: View {
 struct KeyboardView_Previews: PreviewProvider {
     static var previews: some View {
         KeyboardView()
+            .environmentObject(GameController.example)
     }
 }
